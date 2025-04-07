@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# 🛒 E-Commerce UTS - Pemrograman Web  
+**Nama:** Defin Surjaniah  
+**NIM:** 121140022  
+**Mata Kuliah:** Pemrograman Web  
+**UTS Semester Genap 2024/2025**  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🔗 Link Deploy
+👉 [https://uts-pemrograman-web-121140022.vercel.app](https://uts-pemrograman-web-121140022.vercel.app)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Deskripsi
+Aplikasi ini adalah proyek Ujian Tengah Semester yang dikembangkan menggunakan React JS. Aplikasi ini menerapkan berbagai konsep fundamental React seperti:  
+- Komponen fungsional dan props  
+- React Hooks (`useState`, `useEffect`, `useContext`)  
+- Context API untuk manajemen state global  
+- React Router untuk navigasi antar halaman  
+- Fetching data dari API eksternal (DummyJSON)  
+- Penanganan loading dan error state  
+- UI/UX yang bersih dan responsif  
+- Animasi notifikasi dan interaksi user  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🧠 Fitur-Fitur
+- 🚀 Halaman Home dan Products dengan daftar produk dari API  
+- 🛒 Fitur Add to Cart dan manajemen kuantitas produk  
+- 💬 Notifikasi otomatis saat produk ditambahkan ke keranjang  
+- ✔️ Checkout Page sederhana  
+- ✅ Animasi ikon keranjang saat update  
+- ❌ Error 404 Page jika route tidak ditemukan  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🔧 Teknologi yang Digunakan
+- React JS
+- React Router DOM
+- Context API
+- CSS Modules
+- DummyJSON API
+- Vercel (Deploy)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📦 Cara Menjalankan di Lokal
+```bash
+git clone https://github.com/Nachtt-2021/uts_pemrograman_web_121140022.git
+cd ecommerce-uts
+npm install
+npm start
